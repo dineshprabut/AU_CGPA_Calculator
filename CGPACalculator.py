@@ -14,13 +14,13 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(250, 450)
-        MainWindow.setMinimumSize(QtCore.QSize(250, 450))
-        MainWindow.setMaximumSize(QtCore.QSize(250, 450))
+        MainWindow.resize(340, 420)
+        MainWindow.setMinimumSize(QtCore.QSize(340, 420))
+        MainWindow.setMaximumSize(QtCore.QSize(340, 420))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.splitter_2 = QtWidgets.QSplitter(self.centralwidget)
-        self.splitter_2.setGeometry(QtCore.QRect(150, 40, 71, 221))
+        self.splitter_2.setGeometry(QtCore.QRect(130, 40, 71, 221))
         self.splitter_2.setOrientation(QtCore.Qt.Vertical)
         self.splitter_2.setObjectName("splitter_2")
         self.doubleSpinBox = QtWidgets.QDoubleSpinBox(self.splitter_2)
@@ -40,13 +40,13 @@ class Ui_MainWindow(object):
         self.doubleSpinBox_8 = QtWidgets.QDoubleSpinBox(self.splitter_2)
         self.doubleSpinBox_8.setObjectName("doubleSpinBox_8")
         self.label_17 = QtWidgets.QLabel(self.centralwidget)
-        self.label_17.setGeometry(QtCore.QRect(20, 310, 71, 21))
+        self.label_17.setGeometry(QtCore.QRect(40, 340, 71, 21))
         self.label_17.setObjectName("label_17")
         self.label_18 = QtWidgets.QLabel(self.centralwidget)
-        self.label_18.setGeometry(QtCore.QRect(146, 312, 71, 21))
+        self.label_18.setGeometry(QtCore.QRect(230, 340, 65, 21))
         self.label_18.setObjectName("label_18")
         self.splitter = QtWidgets.QSplitter(self.centralwidget)
-        self.splitter.setGeometry(QtCore.QRect(40, 33, 91, 231))
+        self.splitter.setGeometry(QtCore.QRect(20, 40, 91, 221))
         self.splitter.setOrientation(QtCore.Qt.Vertical)
         self.splitter.setObjectName("splitter")
         self.label = QtWidgets.QLabel(self.splitter)
@@ -65,9 +65,41 @@ class Ui_MainWindow(object):
         self.label_7.setObjectName("label_7")
         self.label_8 = QtWidgets.QLabel(self.splitter)
         self.label_8.setObjectName("label_8")
+        self.label_9 = QtWidgets.QLabel(self.centralwidget)
+        self.label_9.setGeometry(QtCore.QRect(230, 10, 71, 16))
+        self.label_9.setObjectName("label_9")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(130, 300, 75, 23))
+        self.pushButton.setObjectName("pushButton")
+        self.label_10 = QtWidgets.QLabel(self.centralwidget)
+        self.label_10.setGeometry(QtCore.QRect(150, 10, 41, 20))
+        self.label_10.setContextMenuPolicy(QtCore.Qt.DefaultContextMenu)
+        self.label_10.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.label_10.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.label_10.setObjectName("label_10")
+        self.splitter_3 = QtWidgets.QSplitter(self.centralwidget)
+        self.splitter_3.setGeometry(QtCore.QRect(230, 40, 61, 221))
+        self.splitter_3.setOrientation(QtCore.Qt.Vertical)
+        self.splitter_3.setObjectName("splitter_3")
+        self.spinBox = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox.setObjectName("spinBox")
+        self.spinBox_2 = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox_2.setObjectName("spinBox_2")
+        self.spinBox_3 = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox_3.setObjectName("spinBox_3")
+        self.spinBox_4 = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox_4.setObjectName("spinBox_4")
+        self.spinBox_5 = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox_5.setObjectName("spinBox_5")
+        self.spinBox_6 = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox_6.setObjectName("spinBox_6")
+        self.spinBox_7 = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox_7.setObjectName("spinBox_7")
+        self.spinBox_8 = QtWidgets.QSpinBox(self.splitter_3)
+        self.spinBox_8.setObjectName("spinBox_8")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 250, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 340, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -81,39 +113,85 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label_17.setText(_translate("MainWindow", "Your CGPA :"))
-        self.label_18.setText(_translate("MainWindow", "TextLabel"))
-        self.label.setText(_translate("MainWindow", "Semester 1         :"))
-        self.label_2.setText(_translate("MainWindow", "Semester 2         : "))
-        self.label_3.setText(_translate("MainWindow", "Semester 3         :"))
-        self.label_4.setText(_translate("MainWindow", "Semester 4         :"))
-        self.label_5.setText(_translate("MainWindow", "Semester 5         :"))
-        self.label_6.setText(_translate("MainWindow", "Semester 6         :"))
-        self.label_7.setText(_translate("MainWindow", "Semester 7         :"))
-        self.label_8.setText(_translate("MainWindow", "Semester 8         :"))
+        self.label_18.setText(_translate("MainWindow", ""))
+        self.label.setText(_translate("MainWindow", "Semester 1      :"))
+        self.label_2.setText(_translate("MainWindow", "Semester 2      : "))
+        self.label_3.setText(_translate("MainWindow", "Semester 3      :"))
+        self.label_4.setText(_translate("MainWindow", "Semester 4      :"))
+        self.label_5.setText(_translate("MainWindow", "Semester 5      :"))
+        self.label_6.setText(_translate("MainWindow", "Semester 6      :"))
+        self.label_7.setText(_translate("MainWindow", "Semester 7      :"))
+        self.label_8.setText(_translate("MainWindow", "Semester 8      :"))
+        self.label_9.setText(_translate("MainWindow", "Total Credits"))
+        self.pushButton.setText(_translate("MainWindow", "Calculate"))
+        self.label_10.setText(_translate("MainWindow", "GPA"))
 
-        self.doubleSpinBox.setRange(1,10);
-        self.doubleSpinBox.setDecimals(self,4);
-        self.doubleSpinBox_2.setRange(1, 10);
-        self.doubleSpinBox_2.setDecimals(self, 4);
-        self.doubleSpinBox_3.setRange(1, 10);
-        self.doubleSpinBox_3.setDecimals(self, 4);
-        self.doubleSpinBox_4.setRange(1, 10);
-        self.doubleSpinBox.setDecimals(self, 4);
-        self.doubleSpinBox.setRange(1, 10);
-        self.doubleSpinBox.setDecimals(self, 4);
-        self.doubleSpinBox.setRange(1, 10);
-        self.doubleSpinBox.setDecimals(self, 4);
-        self.doubleSpinBox.setRange(1, 10);
-        self.doubleSpinBox.setDecimals(self, 4);
-        self.doubleSpinBox.setRange(1, 10);
-        self.doubleSpinBox.setDecimals(self, 4);
+        self.doubleSpinBox.setMaximum(10)
+        self.doubleSpinBox.setMinimum(0)
+        self.doubleSpinBox.setDecimals(3)
+        self.doubleSpinBox_2.setMaximum(10)
+        self.doubleSpinBox_2.setMinimum(0)
+        self.doubleSpinBox_2.setDecimals(3)
+        self.doubleSpinBox_3.setMaximum(10)
+        self.doubleSpinBox_3.setMinimum(0)
+        self.doubleSpinBox_3.setDecimals(3)
+        self.doubleSpinBox_4.setMaximum(10)
+        self.doubleSpinBox_4.setMinimum(0)
+        self.doubleSpinBox_4.setDecimals(3)
+        self.doubleSpinBox_5.setMaximum(10)
+        self.doubleSpinBox_5.setMinimum(0)
+        self.doubleSpinBox_5.setDecimals(3)
+        self.doubleSpinBox_6.setMaximum(10)
+        self.doubleSpinBox_6.setMinimum(0)
+        self.doubleSpinBox_6.setDecimals(3)
+        self.doubleSpinBox_7.setMaximum(10)
+        self.doubleSpinBox_7.setMinimum(0)
+        self.doubleSpinBox_7.setDecimals(3)
+        self.doubleSpinBox_8.setMaximum(10)
+        self.doubleSpinBox_8.setMinimum(0)
+        self.doubleSpinBox_8.setDecimals(3)
+
+        self.spinBox.setMaximum(35)
+        self.spinBox.setMinimum(0)
+        self.spinBox_2.setMaximum(35)
+        self.spinBox_2.setMinimum(0)
+        self.spinBox_3.setMaximum(35)
+        self.spinBox_3.setMinimum(0)
+        self.spinBox_4.setMaximum(35)
+        self.spinBox_4.setMinimum(0)
+        self.spinBox_5.setMaximum(35)
+        self.spinBox_5.setMinimum(0)
+        self.spinBox_6.setMaximum(35)
+        self.spinBox_6.setMinimum(0)
+        self.spinBox_7.setMaximum(35)
+        self.spinBox_7.setMinimum(0)
+        self.spinBox_8.setMaximum(35)
+        self.spinBox_8.setMinimum(0)
+        self.pushButton.clicked.connect(calculateCGPA)
 
 
+def calculateCGPA():
+    ui.label_18.setText("9.8")
 
-import sys
-app = QtWidgets.QApplication(sys.argv)
-MainWindow = QtWidgets.QMainWindow()
-ui = Ui_MainWindow()
-ui.setupUi(MainWindow)
-MainWindow.show()
-sys.exit(app.exec_())
+    Totalcredits = ui.spinBox.value() + ui.spinBox_2.value() + ui.spinBox_3.value() + ui.spinBox_4.value() + \
+                   ui.spinBox_5.value() + ui.spinBox_6.value()
+    CGPA = (ui.doubleSpinBox.value() * ui.spinBox.value() +
+            ui.doubleSpinBox_2.value() * ui.spinBox_2.value() +
+            ui.doubleSpinBox_3.value() * ui.spinBox_3.value() +
+            ui.doubleSpinBox_4.value() * ui.spinBox_4.value() +
+            ui.doubleSpinBox_5.value() * ui.spinBox_5.value() +
+            ui.doubleSpinBox_6.value() * ui.spinBox_6.value() +
+            ui.doubleSpinBox_7.value() * ui.spinBox_7.value() +
+            ui.doubleSpinBox_8.value() * ui.spinBox_8.value()) / Totalcredits
+
+    ui.label_18.setText(str(CGPA))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
